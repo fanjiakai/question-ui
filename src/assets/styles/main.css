@@ -1,0 +1,76 @@
+/*引用图标*/
+.icon {
+  width: 1em; height: 100%;
+  /*vertical-align: -0.15em;*/
+  fill: currentColor;
+  /*overflow: hidden;*/
+}
+.icon:hover{
+  font-size: 100px;
+}
+.el-main{
+  padding: 0px!important;
+  height: calc(100vh - 60px);
+}
+.el-submenu__title{
+
+}
+body{
+  margin: 0;
+}
+
+div{
+  box-sizing:border-box;
+}
+.manager{
+  height: 100%;
+}
+
+.manager .el-header, .manager .el-footer {
+  color: #333;
+}
+.manager .el-footer{
+  text-align: right;
+}
+
+.manager .el-aside {
+  background-color: #D3DCE6;
+  color: #333;
+  text-align: center;
+  /*line-height: 200px;*/
+}
+
+.manager body > .el-container {
+  margin-bottom: 40px;
+}
+
+.manager .el-container:nth-child(5) .el-aside,
+.manager .el-container:nth-child(6) .el-aside {
+  line-height: 260px;
+}
+
+.manager .el-container:nth-child(7) .el-aside {
+  line-height: 320px;
+}
+.manager .el-main {
+  background-color: #ffffff;
+  color: #333;
+  text-align: center;
+  /*line-height: 160px;*/
+}
+.main-right .main-right-page{
+  bottom: 0;
+}
+
+.in-the-middle{
+  padding: 20px;
+  /*background: orange;*/
+  border:1px solid #555555;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 5px;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
